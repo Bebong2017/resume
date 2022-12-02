@@ -1,0 +1,12 @@
+/* Universla selector */
+/*
+* {
+    font-weight: bold;
+}
+*/
+/* Attribute selector */
+/*
+[lang]
+    { font-weight: bold;
+    }
+    */
