@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
     <title>Contact Bebonchu</title>
 </head>
 <body>
@@ -15,18 +16,41 @@
         <input type="text" name="first" id="name1"> 
             </p>
             <p>
-        <label for="myemail">Email</label>
-        <input type="email" name="email" id="myemail">
+        <label for="myemail">Email </label>
+        <input type="email" name ="email" id="myemail">
             </p>
+            <fieldset>
+                <legend>Best time to call</legend>
+            <p>
+                <label ><input type="radio" name="times" value="night">Night</label><br>
+                <label ><input type="radio" name="time" value="Morning">Morning</label><br>
+                <label ><input type="radio" name="time" value="Afternooon">Afternoon</label> <br>
+                <label ><input type="radio" name="time" value="Evening">Evening</label> <br>
+            </p>
+            </fieldset>
             <p> 
-                <input type="submit" value="Send">
+                <label for="asap">ASAP</label>
+                <input type="checkbox" name="asap" id="ASAP">
             </p>
+                <label for="reason">Reason for contact</label>
+                <select name="reason" id="reason">
+                    <option value="To check errors in my code">Code</option>
+                    <option value="To repair our car">Car repair</option>
+                    <option value="Will not be able to attend class">Class</option>
+                </select>
+            <p>
                 <textarea name="Comment" id="" cols="30" rows="10">10</textarea>
             </p>
             <p> 
                 <button type="submit">Submit</button>
             </p>
         </form>
+    </section>
+    <section>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fuga voluptas animi dolorem facere quasi. Esse ipsam natus rem a corrupti aliquam nesciunt perferendis commodi impedit aut, reiciendis fugit inventore. </p> 
+        <aside class="something  "> 
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum expedita nihil quis pariatur sequi, vero magnam dolor saepe reprehenderit, reiciendis nam consequatur temporibus quod minus explicabo possimus non? Id, corrupti?</p>                       
+        </aside>
     </section>
 </body>
 </html>

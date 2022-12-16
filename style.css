@@ -8,5 +8,34 @@
 /*
 [lang]
     { font-weight: bold;
-    }
+    } */
+    /* p[class="services"]{background-color:blue;
+    } 
+    p.services{background-color:blue;}
+    .services{background-color: blue;}
     */
+    /*section[id="testimonials"]{background-color: yellow;
+    } */
+   /* #testimonials{background-color: greenyellow;} */
+    /* type selector*/
+    /*p {font-weight:bold} */
+   /* descendant  combinator */
+   /* #testimonials blockquote {background-color:blueviolet;}
+    #testimonials p {color:red;}
+
+    /*grouping combinator*/
+    /*h1 {background-color: azure;}
+    h2 {background-color:azure;}
+    footer { background-color: azure;} */
+    /* to cobine the above h1,h2 and footer group as below below*/
+    /* h1,h2,footer {background-color:burlywood;} */
+
+    /* child combinator */
+    /*font > p {background-color: blue;}
+    section > p {font-weight: bold;} */
+    /*.something > p {color: blue;}
+    h2 ~ blockquote [font-weight-bold]
+    h2 { color: red  !important ;} */
+
+
+   
